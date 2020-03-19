@@ -1,0 +1,46 @@
+.expertise {
+  padding: 128px 227px 134px;
+  background-color: white; }
+  .expertise__heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    color: #253757;
+    margin: 0 auto 64px;
+    text-align: center; }
+  .expertise__items {
+    display: grid;
+    grid-template-columns: repeat(3, 264px);
+    grid-gap: 0 177px; }
+  .expertise__item {
+    text-align: center; }
+  .expertise__img {
+    border-radius: 25%;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .expertise__img:hover {
+      -webkit-transform: scale(1.45);
+              transform: scale(1.45); }
+  .expertise__title {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #253757; }
+  .expertise__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6c788b;
+    margin-top: 16px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s; }
+    .expertise__text:hover {
+      -webkit-transform: scale(1.4);
+              transform: scale(1.4); }
+
+/*# sourceMappingURL=expertise.css.map */

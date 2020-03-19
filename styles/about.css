@@ -1,0 +1,18 @@
+.about {
+  padding: 148px 423px; }
+  .about__info {
+    margin: 0 auto; }
+  .about__heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #253757; }
+  .about__text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #6c788b; }
+
+/*# sourceMappingURL=about.css.map */
