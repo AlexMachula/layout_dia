@@ -1,6 +1,8 @@
 .expertise {
   padding: 128px 227px 134px;
-  background-color: white; }
+  margin-right: 121px;
+  background-color: white;
+  border-radius: 0 200px 200px 0; }
   .expertise__heading {
     font-family: Poppins, sans-serif;
     font-weight: 600;
@@ -12,11 +14,15 @@
   .expertise__items {
     display: grid;
     grid-template-columns: repeat(3, 264px);
-    grid-gap: 0 177px; }
+    grid-gap: 0 177px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .expertise__item {
     text-align: center; }
   .expertise__img {
     border-radius: 25%;
+    margin-top: 60px;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
@@ -41,6 +47,7 @@
     transition: transform 0.3s, -webkit-transform 0.3s; }
     .expertise__text:hover {
       -webkit-transform: scale(1.4);
-              transform: scale(1.4); }
+              transform: scale(1.4);
+      color: black; }
 
 /*# sourceMappingURL=expertise.css.map */

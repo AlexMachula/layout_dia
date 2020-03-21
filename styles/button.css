@@ -14,8 +14,8 @@
   .button:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-    -webkit-box-shadow: 3px 15px 15px #ff9c8e;
-            box-shadow: 3px 15px 15px #ff9c8e;
+    -webkit-box-shadow: 3px 7px 7px #ff9c8e;
+            box-shadow: 3px 7px 7px #ff9c8e;
     background-color: #5959f1; }
   @media screen and (min-width: 2000px) {
     .button {

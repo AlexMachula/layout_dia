@@ -1,0 +1,81 @@
+.footer {
+  background-color: #008aff;
+  border-radius: 200px 0 0; }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 180px 227px 121px; }
+  .footer__heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: white; }
+  .footer__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer__email, .footer__fname, .footer__messages {
+    width: 100%;
+    background-color: #008aff;
+    border-bottom: 1px solid #47d6fa;
+    margin-bottom: 48px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: white; }
+    .footer__email::-webkit-input-placeholder, .footer__fname::-webkit-input-placeholder, .footer__messages::-webkit-input-placeholder {
+      color: #47d6fa; }
+    .footer__email::-moz-placeholder, .footer__fname::-moz-placeholder, .footer__messages::-moz-placeholder {
+      color: #47d6fa; }
+    .footer__email:-ms-input-placeholder, .footer__fname:-ms-input-placeholder, .footer__messages:-ms-input-placeholder {
+      color: #47d6fa; }
+    .footer__email::-ms-input-placeholder, .footer__fname::-ms-input-placeholder, .footer__messages::-ms-input-placeholder {
+      color: #47d6fa; }
+    .footer__email::placeholder, .footer__fname::placeholder, .footer__messages::placeholder {
+      color: #47d6fa; }
+  .footer__button {
+    padding: 16px 93px; }
+  .footer__small_text {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px; }
+  .footer__phone, .footer__address, .footer__socials {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: white;
+    margin: 0; }
+  .footer__socials {
+    margin-right: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .footer__socials:hover {
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3); }
+  .footer__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 195px 84px 227px; }
+
+/*# sourceMappingURL=footer.css.map */

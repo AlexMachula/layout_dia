@@ -12,7 +12,31 @@ input {
   padding: 0;
   border-width: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: #f2f9ff; }
+
+a {
+  text-decoration: none; }
+
+.logo,
+.button,
+.slider__arrow,
+.footer__email,
+.footer__fname,
+.footer__messages,
+a {
+  outline: none; }
+  .logo:focus,
+  .button:focus,
+  .slider__arrow:focus,
+  .footer__email:focus,
+  .footer__fname:focus,
+  .footer__messages:focus,
+  a:focus {
+    border: 1px solid #09035a;
+    border-radius: 25%; }
 
 /*# sourceMappingURL=reset.css.map */
