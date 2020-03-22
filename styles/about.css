@@ -1,18 +1,48 @@
 .about {
   padding: 148px 423px; }
+  @media screen and (min-width: 2000px) {
+    .about {
+      padding: 250px 600px; } }
+  @media screen and (max-width: 1600px) {
+    .about {
+      padding: 148px 300px; } }
+  @media screen and (max-width: 1200px) {
+    .about {
+      padding: 100px 200px; } }
+  @media screen and (max-width: 900px) {
+    .about {
+      padding: 50px 100px; } }
+  @media screen and (max-width: 500px) {
+    .about {
+      padding: 50px 20px; } }
   .about__info {
     margin: 0 auto; }
+    @media screen and (max-width: 500px) {
+      .about__info {
+        margin: 0; } }
   .about__heading {
     font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 150%;
     color: #253757; }
+    @media screen and (min-width: 2000px) {
+      .about__heading {
+        font-size: 48px; } }
+    @media screen and (max-width: 900px) {
+      .about__heading {
+        font-size: 24px; } }
   .about__text {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
     color: #6c788b; }
+    @media screen and (min-width: 2000px) {
+      .about__text {
+        font-size: 32px; } }
+    @media screen and (max-width: 900px) {
+      .about__text {
+        font-size: 18px; } }
 
 /*# sourceMappingURL=about.css.map */
